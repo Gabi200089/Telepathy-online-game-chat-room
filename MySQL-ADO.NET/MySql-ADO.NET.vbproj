@@ -1,0 +1,772 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EFC69615-2722-4E69-B3D0-4835FEA9D91B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApp1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApp1</RootNamespace>
+    <AssemblyName>WindowsApp1</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WindowsApp1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WindowsApp1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.11.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\MySQL Connector Net 8.0.11\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="choosehead.Designer.vb">
+      <DependentUpon>choosehead.vb</DependentUpon>
+    </Compile>
+    <Compile Include="choosehead.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CPlayer.Designer.vb">
+      <DependentUpon>CPlayer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CPlayer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="data.Designer.vb">
+      <DependentUpon>data.vb</DependentUpon>
+    </Compile>
+    <Compile Include="data.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="first.Designer.vb">
+      <DependentUpon>first.vb</DependentUpon>
+    </Compile>
+    <Compile Include="first.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb" />
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.vb">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.vb">
+      <DependentUpon>Form5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.vb">
+      <DependentUpon>Form6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.vb">
+      <DependentUpon>Form7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="friendinvite.Designer.vb">
+      <DependentUpon>friendinvite.vb</DependentUpon>
+    </Compile>
+    <Compile Include="friendinvite.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.vb">
+      <DependentUpon>login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.Designer.vb">
+      <DependentUpon>main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Match.Designer.vb">
+      <DependentUpon>Match.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Match.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="reject.Designer.vb">
+      <DependentUpon>reject.vb</DependentUpon>
+    </Compile>
+    <Compile Include="reject.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="register.Designer.vb">
+      <DependentUpon>register.vb</DependentUpon>
+    </Compile>
+    <Compile Include="register.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SPlayer.Designer.vb">
+      <DependentUpon>SPlayer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SPlayer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="choosehead.resx">
+      <DependentUpon>choosehead.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPlayer.resx">
+      <DependentUpon>CPlayer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="data.resx">
+      <DependentUpon>data.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="first.resx">
+      <DependentUpon>first.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="friendinvite.resx">
+      <DependentUpon>friendinvite.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Match.resx">
+      <DependentUpon>Match.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reject.resx">
+      <DependentUpon>reject.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="register.resx">
+      <DependentUpon>register.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SPlayer.resx">
+      <DependentUpon>SPlayer.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chat1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Love1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Love2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Love3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Love4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\messages.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\可樂.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\茄子.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\香菇.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paper-plane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smile-hand-drawn-emoticon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 與 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\choosehead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paper-plane1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smile-hand-drawn-emoticon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Telepathy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\太空背景.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\月亮1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\可樂1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\地圖1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\其他1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\品牌1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\星空背景1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\茄子2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\食物1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\香菇2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\旅遊1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\理想型1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\聊天1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\遊戲背景1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\answer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\answer-cilck.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chat2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chat11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading21.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Love11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Love21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Love31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Love41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message61.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\messages1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paper-plane2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smile-hand-drawn-emoticon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Telepathy1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\太空背景1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\月亮2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\可樂2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\地圖2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\其他2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\品牌2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\星空背景2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\茄子3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\食物2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\香菇3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\旅遊2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\理想型2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\聊天2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\遊戲背景2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\choosehead21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\choosehead31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\choosehead41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\choosehead11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\choosehead2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\choosehead3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\choosehead4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\choosehead5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\choosehea5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\choosehea6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\choosehead1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\head5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\登入頁.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\後.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\按鈕.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tenor.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\首頁按鈕.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\首頁背景.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\註冊頁背景.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\On.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn-no.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn-yes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chaln-back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\denied.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sticker1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sticker2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sticker3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sticker4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sticker5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sticker6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sticker7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sticker8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sticker9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sticker10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sticker11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sticker12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no-sound.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\volume-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\volume-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speaker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\space1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UFO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\astro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\night.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\astro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UFO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\answer-wrong.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

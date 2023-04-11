@@ -1,0 +1,701 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WindowsApp1
+</name>
+</assembly>
+<members>
+<member name="T:WindowsApp1.My.Resources.Resources">
+<summary>
+  用於查詢當地語系化字串等的強類型資源類別。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.ResourceManager">
+<summary>
+  傳回這個類別使用的快取的 ResourceManager 執行個體。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.Culture">
+<summary>
+  覆寫目前執行緒的 CurrentUICulture 屬性，對象是所有
+  使用這個強類型資源類別的資源查閱。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources._1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources._11">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources._On">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.answer">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.answer_cilck">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.answer_wrong">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.astro">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.back">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.btn_no">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.btn_yes">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.chaln_back">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.chat">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.chat1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.chat11">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.chat2">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.choosehead1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.choosehead111">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.choosehead2">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.choosehead3">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.choosehead4">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.choosehead5">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.choosehead6">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.chooseheadnone">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.denied">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.exit__1_1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.exit__1_2">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.head1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.head11">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.head2">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.head21">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.head3">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.head31">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.head4">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.head41">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.head5">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.head6">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.heart">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.heart__1_">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.Ing">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.loading2">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.loading21">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.logout">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.logout1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.Love1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.Love11">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.Love2">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.Love21">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.Love3">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.Love31">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.Love4">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.Love41">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.message">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.message1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.message11">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.message2">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.message21">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.message3">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.message31">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.message4">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.message41">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.message5">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.message51">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.message6">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.message61">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.message7">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.messages">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.messages1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.night">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.no_sound">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.Off">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.paper_plane">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.paper_plane1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.paper_plane2">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.Rectangle">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.sky">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.smile_hand_drawn_emoticon">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.smile_hand_drawn_emoticon1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.smile_hand_drawn_emoticon2">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.space1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.speaker">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.sticker1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.sticker10">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.sticker11">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.sticker12">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.sticker2">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.sticker3">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.sticker4">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.sticker5">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.sticker6">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.sticker7">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.sticker8">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.sticker9">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.Telepathy">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.Telepathy1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.tenor">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.UFO">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.volume_down">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.volume_up">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.其他1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.其他2">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.可樂">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.可樂1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.可樂2">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.品牌1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.品牌2">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.地圖1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.地圖2">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.太空背景">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.太空背景1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.後">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.按鈕">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.旅遊1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.旅遊2">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.星空背景1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.星空背景2">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.月亮1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.月亮2">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.理想型1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.理想型2">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.登入頁">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.聊天1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.聊天2">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.茄子">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.茄子2">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.茄子3">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.註冊頁背景">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.遊戲背景1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.遊戲背景2">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.食物1">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.食物2">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.首頁按鈕">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.首頁背景">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.香菇">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.香菇2">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+<member name="P:WindowsApp1.My.Resources.Resources.香菇3">
+<summary>
+  查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+</summary>
+</member>
+</members>
+</doc>

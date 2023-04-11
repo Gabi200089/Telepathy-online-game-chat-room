@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "u32OhHm6V2nMFayGCNy3suSbWpkAaK6oUz24f24H7qR0EiSoLrjkKDe2CBDMMnCKkytTPRfuU+9MGMloTur7zw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\allen\\source\\repos\\WinFormsApp1\\WinFormsApp1.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\allen\\.nuget\\packages\\mysqlconnector\\1.2.1\\mysqlconnector.1.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
